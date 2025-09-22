@@ -1,6 +1,6 @@
 /* Introdução à programação - Nível Aventureiro 
 Construção de um jogo - Super Trunfo de Países.
-Sistem para cadastrar as cartas com as informações sobre as cidades.*/
+Sistema para cadastrar as cartas com as informações sobre as cidades.*/
 
 #include <stdio.h>
 
@@ -132,6 +132,7 @@ int main() {
     return 0;
 
 } 
+
 
 
 
