@@ -1,6 +1,6 @@
 /* Introdução à programação - Nível Novato 
 Construção de um jogo - Super Trunfo de Países.
-Sistem para cadastrar as cartas com as informações sobre as cidades.*/
+Sistema para cadastrar as cartas com as informações sobre as cidades.*/
 
 #include <stdio.h>
 
@@ -14,7 +14,7 @@ int main() {
     int populacao_1; // População da cidade 
     float area_1; // Área por km² 
     float pib_1; // PIB do local 
-    int turiscos_1; // Número de ponto turísticos.
+    int turisticos_1; // Número de ponto turísticos.
 
 
     // Variáveis carta 2 
@@ -24,7 +24,7 @@ int main() {
     int populacao_2; // População da cidade
     float area_2; // Área por km²
     float pib_2; // PIB do local
-    int turiscos_2; // Número de ponto turísticos.
+    int turisticos_2; // Número de ponto turísticos.
 
 
     // Preenchimento do dados da 1ª carta 
@@ -56,7 +56,7 @@ int main() {
 
     // solicitação de quantidade de números turisticos
     printf("Digite a quantidade de pontos turísticos que a cidade possui: \n");
-    scanf("%d", &turiscos_1);
+    scanf("%d", &turisticos_1);
 
 
      //exibir dados da 1ª carta 
@@ -67,7 +67,7 @@ int main() {
     printf("População: %d\n", populacao_1);
     printf("Área: %.3f KM²\n", area_1);
     printf("PIB: %.2f\n", pib_1);
-    printf("Número de Pontos Turísticos: %d\n", turiscos_1);
+    printf("Número de Pontos Turísticos: %d\n", turisticos_1);
 
 
     // Preenchimento do dados da 2ª carta 
@@ -99,7 +99,7 @@ int main() {
 
     // solicitação de quantidade de números turisticos
     printf("Digite a quantidade de pontos turísticos que a cidade possui: \n");
-    scanf("%d", &turiscos_2);
+    scanf("%d", &turisticos_2);
    
 
     //exibir dados da 2ª carta
@@ -110,11 +110,12 @@ int main() {
     printf("População: %d\n", populacao_2);
     printf("Área: %.3f KM²\n", area_2);
     printf("PIB: %.2f\n", pib_2);
-    printf("Número de Pontos Turísticos: %d\n", turiscos_2);
+    printf("Número de Pontos Turísticos: %d\n", turisticos_2);
 
     return 0;
 
 } 
+
 
 
 
